@@ -1,58 +1,24 @@
-# CakePHP Application Skeleton
+# Internship Tracker
 
-![Build Status](https://github.com/cakephp/app/actions/workflows/ci.yml/badge.svg?branch=5.x)
-[![Total Downloads](https://img.shields.io/packagist/dt/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
-[![PHPStan](https://img.shields.io/badge/PHPStan-level%208-brightgreen.svg?style=flat-square)](https://github.com/phpstan/phpstan)
+## Description
+Internship Tracker is a streamlined web application designed to help students and job seekers manage their internship application journey. From tracking application statuses to organizing crucial documents, this tool keeps your career search structured and stress-free.
 
-A skeleton for creating applications with [CakePHP](https://cakephp.org) 5.x.
+---
 
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+## Features Included
+1.User Authentication: Secure registration, login, and session management to keep your data private.
+2.Dynamic Dashboard: A centralized overview displaying your total applications, upcoming interviews, and real-time status breakdowns (e.g., Applied, Interviewing, Offered, Rejected).
+3.Company Application Management: Log specific details for every company you apply to, including job titles, application links, submission dates, and custom notes.
+4.Document Manager: Keep your resumes, cover letters, and transcripts organized and readily accessible for quick applications.
+5.Responsive Design: A fully optimized interface that works seamlessly across desktop, tablet, and mobile devices.
 
-## Installation
+---
 
-1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
+## Instructions to Test Login
+1. Insert username using email and password
 
-If Composer is installed globally, run
-
-```bash
-composer create-project --prefer-dist cakephp/app
-```
-
-In case you want to use a custom app dir name (e.g. `/myapp/`):
-
-```bash
-composer create-project --prefer-dist cakephp/app myapp
-```
-
-You can now either use your machine's webserver to view the default home page, or start
-up the built-in webserver with:
-
-```bash
-bin/cake server -p 8765
-```
-
-Then visit `http://localhost:8765` to see the welcome page.
-
-## Demo app
-
-Check out the [5.x-demo branch](https://github.com/cakephp/app/tree/5.x-demo), which contains demo migrations and a seeder.
-See the [README](https://github.com/cakephp/app/blob/5.x-demo/README.md) on how to get it running.
-
-## Update
-
-Since this skeleton is a starting point for your application and various files
-would have been modified as per your needs, there isn't a way to provide
-automated upgrades, so you have to do any updates manually.
-
-## Configuration
-
-Read and edit the environment specific `config/app_local.php` and set up the
-`'Datasources'` and any other configuration relevant for your application.
-Other environment agnostic settings can be changed in `config/app.php`.
-
-## Layout
-
-The app skeleton uses [Milligram](https://milligram.io/) (v1.3) minimalist CSS
-framework by default. You can, however, replace it with any other library or
-custom styles.
+### 3. Create a New Account
+If you do not have an account yet:
+1. Click on the "Sign Up" or "Register" link at the bottom of the login card.
+2. Enter a valid email address and create a secure password.
+3. Submit the form to be automatically logged in and redirected to your new dashboard.
