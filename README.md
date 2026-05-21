@@ -22,3 +22,12 @@ If you do not have an account yet:
 1. Click on the "Sign Up" or "Register" link at the bottom of the login card.
 2. Enter a valid email address and create a secure password.
 3. Submit the form to be automatically logged in and redirected to your new dashboard.
+
+## Installation & Setup
+
+Follow these steps to get your development environment running locally:
+
+### 1. Clone the Repository
+repo : https://github.com/Zepalien/internshipTracker
+live link : https://zepalien.github.io/internshipTracker/
+opensource link (inifinityfree) : https://internshiptracker.great-site.net/
