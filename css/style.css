@@ -1,0 +1,135 @@
+.login-card {
+    background: rgba(255, 255, 255, 0.732); /* Slightly more opaque */
+    backdrop-filter: blur(10px); /* Blurs the Vanta background behind the card */
+    border: 1px solid rgba(255, 255, 255, 0.443);
+    border-radius: 20px;
+}
+.typing-text {
+  overflow: hidden; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .10em; 
+  border-right: .15em solid #198754; /* The cursor color */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #198754; }
+}
+
+.form-control:focus, 
+.form-control:active {
+    border-color: #198754 !important;
+    background-color: #fff !important; /* Prevents background color changes */
+    color: #212529 !important;
+    box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25) !important;
+    outline: 0 !important;
+}
+
+
+/* Fix the Forgot Password visibility */
+.text-success {
+    color: #198754 !important; /* A slightly brighter green */
+}
+
+ body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: var(--bs-tertiary-bg);
+        }
+        .card {
+            border: none;
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+            border-radius: 12px;
+        }
+        .stat-icon {
+            font-size: 2rem;
+            opacity: 0.3;
+        }
+        .navbar-brand {
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+/* Custom Styling for the Image 2 Search Style */
+    .search-wrapper {
+        background-color: var(--bs-tertiary-bg);
+        border: 1px solid var(--bs-border-color);
+        border-radius: 10px;
+        transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .search-wrapper:focus-within {
+        border-color: #198754;
+        box-shadow: 0 0 0 3px rgba(25, 135, 84, 0.1);
+    }
+
+    .search-input {
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 0.95rem;
+        color: var(--bs-body-color);
+    }
+
+    .search-input::placeholder {
+        color: var(--bs-secondary-color);
+    }
+
+ /* Sidebar Styling */
+        #sidebar-wrapper {
+            min-width: 250px;
+            max-width: 250px;
+            min-height: 100vh;
+            transition: all 0.3s;
+        }
+        
+        .sidebar-heading { font-size: 1.2rem; }
+        .list-group-item { border: none; padding: 0.75rem 1.25rem; }
+        .list-group-item.active { background-color: rgba(25, 135, 84, 0.1) !important; color: #198754 !important; font-weight: 600; }
+        
+        /* Search Bar Styling */
+        .search-wrapper {
+            background-color: var(--bs-tertiary-bg);
+            border: 1px solid var(--bs-border-color);
+            border-radius: 8px;
+        }
+        .search-input { background: transparent; border: none; outline: none; color: var(--bs-body-color); width: 100%; }
+
+        /* Toggled state */
+        #wrapper.toggled #sidebar-wrapper { margin-left: -250px; }
+        
+/* Styling for the item you are currently pointing at */
+#sidebar-wrapper .list-group-item-action:hover {
+    background-color: rgba(25, 135, 84, 0.15) !important; /* Light green tint */
+    color: #198754 !important; /* Success green text */
+    transition: all 0.2s ease;
+}
+
+/* Styling for the 'Active' page */
+#sidebar-wrapper .list-group-item-action.active {
+    background-color: rgba(25, 135, 84, 0.2) !important;
+    color: #198754 !important;
+    font-weight: 600;
+    border: none;
+}
+.dark-mode-toggle{
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 0.5rem;
+    color: inherit;
+}
+
+.dark-mode-toggle:hover{
+    opacity: 0.7;
+}
