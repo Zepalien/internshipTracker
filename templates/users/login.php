@@ -57,7 +57,7 @@
                             </div>
                             
                             <div class="col-12 text-end my-2">
-                                <button type="button" class="btn btn-outline-success px-4 me-2" onclick="alert('Registration feature coming soon!')">Sign Up</button>
+                               <?= $this->Html->link('Sign Up', ['controller' => 'Users', 'action' => 'add'], ['class' => 'btn btn-outline-success px-4 me-2']) ?>
                                 <button type="submit" class="btn btn-success px-4">Login</button>
                             </div>
                         </form> 
