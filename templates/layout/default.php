@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="light">
 <head>
+    <meta name="description" content="Internship Tracker Application">
+    <meta name="keywords" content="IMS566, UiTM, Internship Tracker, Student Portal, Content Management, Advanced Web Design">
+    <meta name="author" content="Aulyanabila">
+    <meta name="application-name" content="Internship Tracker">
+   
+    <title>Internship Tracker</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2 family=Bitcount+Grid+Double:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sekuya&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $this->fetch('title') ?></title>
