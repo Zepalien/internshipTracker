@@ -16,6 +16,7 @@ Internship Tracker is a streamlined web application designed to help students an
 
 ## Instructions to Test Login
 1. Insert username using email and password
+   (email === 'bella@gmail.com' && password === 'bellacomel30')
 
 ### 3. Create a New Account
 If you do not have an account yet:
