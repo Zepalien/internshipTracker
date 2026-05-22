@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Internship Tracker Application">
-    <meta name="keywords" content="IMS566, UiTM, Internship Tracker, Student Portal, Content Management, Advanced Web Design">
+    <meta name="keywords" content="IMS566, UiTM, Internship Tracker, System Management, Advanced Web Design">
     <meta name="author" content="Aulyanabila">
     <meta name="application-name" content="Internship Tracker">
    
